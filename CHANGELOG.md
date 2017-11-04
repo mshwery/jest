@@ -1,6 +1,7 @@
 ## master
 
 ### Fixes
+* `[jest-config]` add `.git` and `.hg` as `modulePathIgnorePatterns` default configuration ([TBD](tbd))
 * `[jest-docblock]` pragmas should preserve urls ([#4837](https://github.com/facebook/jest/pull/4629))
 * `[jest-cli]` Check if `npm_lifecycle_script` calls Jest directly ([#4629](https://github.com/facebook/jest/pull/4629))
 * `[jest-cli]` Fix --showConfig to show all configs ([#4494](https://github.com/facebook/jest/pull/4494))

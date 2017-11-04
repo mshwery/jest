@@ -225,7 +225,7 @@ Example:
 *Note: If you provide module name without boundaries `^$` it may cause hard to spot errors. E.g. `relay` will replace all modules which contain `relay` as a substring in its name: `relay`, `react-relay` and `graphql-relay` will all be pointed to your stub.*
 
 ### `modulePathIgnorePatterns` [array<string>]
-Default: `[]`
+Default: `['.git', '.hg']`
 
 An array of regexp pattern strings that are matched against all module paths before those paths are to be considered 'visible' to the module loader. If a given module's path matches any of the patterns, it will not be `require()`-able in the test environment.
 
