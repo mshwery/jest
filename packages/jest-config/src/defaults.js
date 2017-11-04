@@ -45,7 +45,7 @@ export default ({
   moduleDirectories: ['node_modules'],
   moduleFileExtensions: ['js', 'json', 'jsx', 'node'],
   moduleNameMapper: {},
-  modulePathIgnorePatterns: [],
+  modulePathIgnorePatterns: ['.git', '.hg'],
   noStackTrace: false,
   notify: false,
   preset: null,
